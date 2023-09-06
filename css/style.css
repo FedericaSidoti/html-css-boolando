@@ -34,7 +34,6 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px; 
 }
 
 .col-4 {
@@ -75,6 +74,10 @@ body {
 
 .main {
     font-size: 12px;
+}
+
+.main .row {
+    padding-top: 50px; 
 }
 
 /*Cards*/
@@ -125,6 +128,19 @@ body {
     position: static;
     display: inline-block;
 }
+
+/*footer*/
+
+.page-footer {
+    color: white;
+    font-size: 10px;
+    background-color: #1a1a1a;
+    min-height: 30px;
+
+}
+
+
+/*hover*/
 
 .b-img {
     position: absolute; 
