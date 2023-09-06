@@ -25,11 +25,27 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
+}
+
 /*Header*/
 .page-header {
     min-height: 30px;
     background-color: #ff6900;
     color: white;
+    font-size: 12px;
 }
 
 .navbar {
@@ -42,10 +58,23 @@ body {
 
 .navbar_list {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     column-gap: 10px;
 }
 
 .img-logo {
     height: 30px;
+}
+
+/*DEBUG*/
+
+.debug .row {
+    padding: 30px;
+    background-color: aqua;
+}
+
+.debug .col-4 {
+    padding: 10px;
+    background-color: blue;
+    border: 2px solid black;
 }
