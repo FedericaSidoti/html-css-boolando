@@ -34,6 +34,7 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 50px; 
 }
 
 .col-4 {
@@ -47,6 +48,9 @@ body {
     background-color: #ff6900;
     color: white;
     font-size: 12px;
+    position: fixed; 
+    z-index: 999; 
+    width: 100%;
 }
 
 .navbar {
@@ -86,6 +90,7 @@ body {
     font-size: 11px;
     padding: 0 8px;
     position: absolute; 
+    z-index: 2; 
 }
 
 .heart {
@@ -99,6 +104,7 @@ body {
 .tag-container {
     position: absolute;
     bottom: 25px;
+    z-index: 2; 
 }
 
 .price {
@@ -120,7 +126,16 @@ body {
     display: inline-block;
 }
 
+.b-img {
+    position: absolute; 
+    z-index: -1; 
+    left: 0;
+    top: 0; 
+}
 
+.card:hover .b-img {
+    z-index: 1;
+}
 
 /*DEBUG*/
 
