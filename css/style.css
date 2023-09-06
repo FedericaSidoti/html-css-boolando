@@ -137,6 +137,10 @@ body {
     z-index: 1;
 }
 
+.heart:hover {
+    color: red;
+}
+
 /*DEBUG*/
 
 .debug .row {
