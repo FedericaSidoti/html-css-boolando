@@ -38,6 +38,7 @@ body {
 
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
+    padding: 10px;
 }
 
 /*Header*/
@@ -64,6 +65,41 @@ body {
 
 .img-logo {
     height: 30px;
+}
+
+/*Main*/
+
+/*Cards*/
+
+.figure {
+    position: relative; 
+}
+
+/*tags and decorations*/
+
+.tag{
+    line-height: 20px;
+    font-size: 12px;
+    position: absolute;
+    padding: 0 8px;
+}
+
+.heart {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    right: 0; 
+    top: 30px;  
+}
+
+.price {
+    background-color: #ff0000;
+    left: 0;
+    bottom: 20px
+}
+
+.description {
+    background-color: #008000;
 }
 
 /*DEBUG*/
