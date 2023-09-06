@@ -89,6 +89,15 @@ body {
     position: relative; 
 }
 
+.current {
+    color: red;
+}
+
+.old {
+    color: black;
+    text-decoration: line-through;
+}
+
 /*tags and decorations*/
 
 .tag{
