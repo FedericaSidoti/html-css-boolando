@@ -69,6 +69,10 @@ body {
 
 /*Main*/
 
+.main {
+    font-size: 12px;
+}
+
 /*Cards*/
 
 .figure {
@@ -80,8 +84,8 @@ body {
 .tag{
     line-height: 20px;
     font-size: 11px;
-    position: absolute;
     padding: 0 8px;
+    position: absolute; 
 }
 
 .heart {
@@ -92,16 +96,31 @@ body {
     top: 30px;  
 }
 
+.tag-container {
+    position: absolute;
+    bottom: 25px;
+}
+
 .price {
     background-color: #ff0000;
     color: white;
+    bottom: 25px; 
     left: 0;
-    bottom: 30px; 
 }
 
 .description {
     background-color: #008000;
+    color: white;
+    bottom: 25px; 
+    left: 0;
 }
+
+.tag-container .tag {
+    position: static;
+    display: inline-block;
+}
+
+
 
 /*DEBUG*/
 
