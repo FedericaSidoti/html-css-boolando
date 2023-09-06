@@ -11,9 +11,41 @@ img {
 
 ul, ol, menu {
     list-style: none;
+    color: currentColor;
 }
 
 a {
     text-decoration: none;
     color: currentColor;
+}
+
+/*Regole di layout*/
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+/*Header*/
+.page-header {
+    min-height: 30px;
+    background-color: #ff6900;
+    color: white;
+}
+
+.navbar {
+    padding: 8px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar_list {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 10px;
+}
+
+.img-logo {
+    height: 30px;
 }
