@@ -79,7 +79,7 @@ body {
 
 .tag{
     line-height: 20px;
-    font-size: 12px;
+    font-size: 11px;
     position: absolute;
     padding: 0 8px;
 }
@@ -94,8 +94,9 @@ body {
 
 .price {
     background-color: #ff0000;
+    color: white;
     left: 0;
-    bottom: 20px
+    bottom: 30px; 
 }
 
 .description {
