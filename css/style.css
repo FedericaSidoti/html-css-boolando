@@ -48,7 +48,11 @@ body {
     font-size: 12px;
     position: fixed; 
     z-index: 999; 
-    width: 100%;
+    top: 0; 
+    /*width: 100%;*/
+    right: 0; 
+    left: 0; 
+    /*position:sticky = non servirebbe padding al main, MA si posiziona rispetto al body e non alla viewport*/
 }
 
 .navbar {
@@ -73,11 +77,9 @@ body {
 
 .main {
     font-size: 12px;
+    padding-top: 50px;
 }
 
-.main .row {
-    padding-top: 50px; 
-}
 
 .main .container {
     padding: 20px;
