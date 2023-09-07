@@ -85,6 +85,10 @@ body {
     padding: 20px;
 }
 
+h4 {
+    text-transform: uppercase;
+}
+
 /*Cards*/
 
 .figure {
@@ -151,7 +155,10 @@ body {
     font-size: 10px;
     background-color: #1a1a1a;
     min-height: 30px;
+}
 
+h5 {
+    font-size: 11px;
 }
 
 /*hover*/
