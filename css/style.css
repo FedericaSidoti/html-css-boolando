@@ -106,6 +106,7 @@ body {
     padding: 0 8px;
     position: absolute; 
     z-index: 2; 
+    /*aspect-ratio: 1 se non dai line-height e padding!*/
 }
 
 .heart {
